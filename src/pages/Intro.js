@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import "../styles/Intro.css";
 import { Button } from "react-bootstrap";
 
@@ -14,7 +15,10 @@ const Intro = () => {
                 <h2 className="introSummary introTitle animate__animated animate__flipInX">I'm a full stack web developer</h2>
                 {/* <a href="/about" className="introButton ">View my Work</a> */}
                 <div className="introButton animate__animated animate__backInUp">
-                <Button variant="danger" href="/about">See my Work</Button>
+                <Link to="/about">
+                <Button variant="danger">See my Work</Button>
+                </Link>
+               
                 </div>
                 
             </div>
