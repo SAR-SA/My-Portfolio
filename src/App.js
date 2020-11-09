@@ -14,10 +14,10 @@ function App() {
       <div>
           <Switch>
             <Route exact path={process.env.PUBLIC_URL + '/'} component={Intro} />
-            <Route exact path={process.env.PUBLIC_URL + '/intro'} component={Intro} />
-            <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
-            <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
-            <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Contact} />
+            <Route exact path={process.env.PUBLIC_URL + '/My-Portfolio/intro'} component={Intro} />
+            <Route exact path={process.env.PUBLIC_URL + '/My-Portfolio/about'} component={About} />
+            <Route exact path={process.env.PUBLIC_URL + '/My-Portfolio/projects'} component={Projects} />
+            <Route exact path={process.env.PUBLIC_URL + '/My-Portfolio/Contact'} component={Contact} />
           </Switch>
       </div>
     </Router>
