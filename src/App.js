@@ -10,14 +10,14 @@ function App() {
   return (
     <>
     
-    <Router>
+    <Router basename="/My-Portfolio">
       <div>
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + '/'} component={Intro} />
-            <Route exact path={process.env.PUBLIC_URL + '/My-Portfolio/intro'} component={Intro} />
-            <Route exact path={process.env.PUBLIC_URL + '/My-Portfolio/about'} component={About} />
-            <Route exact path={process.env.PUBLIC_URL + '/My-Portfolio/projects'} component={Projects} />
-            <Route exact path={process.env.PUBLIC_URL + '/My-Portfolio/Contact'} component={Contact} />
+            <Route exact path='/' component={Intro} />
+            <Route exact path='/intro' component={Intro} />
+            <Route exact path= '/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/Contact' component={Contact} />
           </Switch>
       </div>
     </Router>
