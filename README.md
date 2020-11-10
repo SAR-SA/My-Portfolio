@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![](assets/ReactAbout.JPG)
 ![](assets/ReactIntro.JPG)
+![](assets/ReactAbout.JPG)
 
 ## Table of Contents
 - [Description](#descriptiongo)
