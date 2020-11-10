@@ -15,7 +15,7 @@ const Intro = () => {
                 <h2 className="introSummary introTitle animate__animated animate__flipInX">I'm a full stack web developer</h2>
                 {/* <a href="/about" className="introButton ">View my Work</a> */}
                 <div className="introButton animate__animated animate__backInUp">
-                <Link to="/about">
+                <Link to="/My-Portfolio/about">
                 <Button variant="danger">See my Work</Button>
                 </Link>
                
