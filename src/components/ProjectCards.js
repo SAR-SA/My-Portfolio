@@ -7,7 +7,7 @@ import pic3 from '../assets/WeatherApp.JPG';
 import pic4 from '../assets/WorkDayScheduler Readme.JPG';
 import pic5 from '../assets/Password_Generator_Readme.JPG';
 import pic6 from '../assets/pictures from space.JPG';
-import pic7 from '../assets/pictures from GoogleSearch.JPG';
+import pic7 from '../assets/GoogleBooksSearch.JPG';
 
 
 function ProjectCards() {
@@ -91,7 +91,7 @@ function ProjectCards() {
                     <div className="contain mr-2 ml-2 mt-5 mb-8">
                         <img className="projectsPic" src={pic7} alt="" />
                         <div className="centered">
-                            <h1>Pictures From space</h1>
+                            <h1>Google Books Search</h1>
                             <p>This App is used to search and save books from the entire Google Books library.</p>
                             <a href="https://morning-inlet-35060.herokuapp.com/">Learn More</a>
                         </div>
