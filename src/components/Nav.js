@@ -15,7 +15,7 @@ function NavTop() {
             width="70"
             height="70"
             className="d-inline-block align-top"
-            alt=""
+            alt="Shawn A. Rather Avatar"
           />
         </Navbar.Brand>
         {/* <Nav className="mr-auto">

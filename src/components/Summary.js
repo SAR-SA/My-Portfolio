@@ -5,7 +5,7 @@ function Summary() {
 
   return (
     <div className="summary">
-      <p>Full-Stack developer with a background as a business technology advisor. Leveraging my background to build intuitive web applications and pages, utilizing responsive web design. As a Marine I am known as a dedicated worker, recently continuing to work on a project a week after it was submitted by the team to improve functionality. My goal as a developer is to build mobile friendly, user experience driven applications. </p>
+      <p>Full-Stack developer with a background as a business technology advisor. Leveraging the ability to problem solve, think creatively and attention to detail to build intuitive web applications and pages, utilizing responsive web design. Focused on mobile friendly, user experience driven applications. A former Marine known as a driven and dedicated professional.  </p>
     </div>
   );
 }
