@@ -78,7 +78,7 @@ function ProjectCards() {
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">{listItem.title}<i class="material-icons right">close</i></span>
                                 <p>{listItem.summary}</p>
-                                <p><a href={listItem.link}>Visit</a></p>
+                                <p><a href={listItem.link} target="_blank">Visit</a></p>
                             </div>
                         </div>
 
