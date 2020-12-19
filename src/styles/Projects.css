@@ -37,3 +37,14 @@
       background-color: white;
       color: black;
   }
+
+  #cards {
+      width: 330px;
+      height: 280px;
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+
+  #projectImage {
+      height: 200px;
+  }

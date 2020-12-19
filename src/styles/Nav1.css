@@ -1,0 +1,29 @@
+#name {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: xx-large;
+    color: white;
+}
+
+.toggle {
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+}
+
+#navTop {
+    background-color: black;
+    
+}
+
+
+
+@media screen and (max-width:500px){
+    #toggle_button {
+        background-color: white;
+    }
+
+    #navTop {
+        padding-top: 0px;
+    }
+
+}

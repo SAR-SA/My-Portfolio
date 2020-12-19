@@ -8,3 +8,19 @@
     margin-top: 30px;
     justify-content: center;
 }
+
+.pic {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.list {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:500px){
+    body {
+        overflow-x: hiddden;
+    }
+}

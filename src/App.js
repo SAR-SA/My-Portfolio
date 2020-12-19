@@ -4,6 +4,7 @@ import Intro from "./pages/Intro";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Nav from '../src/components/Nav1';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
     
     <Router basename="/My-Portfolio">
+    <Nav />
       <div>
           <Switch>
             <Route exact path='/' component={Intro} />

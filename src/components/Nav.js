@@ -6,15 +6,13 @@ import "../styles/Nav.css";
 
 
 function NavTop() {
-  return (
-    <div>
-      <Navbar className="navBar" collapseOnSelect expand="lg" >
+  return ( 
+ <div>
+      <Navbar className="navBar" collapseOnSelect expand="lg" style={{zIndex:1}}>
         <Navbar.Brand href="#home">
-          <img
-            src={Avatar}
-            width="70"
-            height="70"
-            className="d-inline-block align-top"
+          <img src={Avatar} id="avatarImg"
+            width="50"
+            height="50"
             alt="Shawn A. Rather Avatar"
           />
         </Navbar.Brand>
@@ -46,9 +44,22 @@ function NavTop() {
     </Form> */}
       </Navbar>
     </div>
-
   )
 }
 
 export default NavTop;
 
+
+
+
+
+    // <nav>
+    // //   <div class="nav-wrapper">
+    // //   <a href="#!" class="brand-logo"><img>{Avatar}</img>Shawn A. Rather</a>
+    // //     <ul id="nav-mobile" class="right hide-on-med-and-down">
+    // //     <Nav.Link> <li><a href="/contact">About</a></li> </Nav.Link>
+    // //     <Nav.Link> <li><a href="/contact">Projects</a></li> </Nav.Link>
+    // //     <Nav.Link> <li><a href="/contact">Contact</a></li> </Nav.Link>
+    // //     </ul>
+    // //   </div>
+    // // </nav>

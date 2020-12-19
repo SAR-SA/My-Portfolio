@@ -5,6 +5,18 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0%;
+}
+
+
+.bottom-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
 }
 
 .link-btns {
