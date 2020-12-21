@@ -15,49 +15,56 @@ const projectsArray = [
         alt: "Job Trackr Pic",
         title: "Job Trackr",
         summary: "Job Tracker allows users to create an account, search and apply for remote jobs, and track the applications every step of the way. It also has benchmark goals to keep the user motivated and on pace with their job search.",
-        link: "https://whispering-woodland-82554.herokuapp.com/"
+        link: "https://whispering-woodland-82554.herokuapp.com/",
+        gitlink: "https://github.com/SAR-SA/Job-Trackr" 
     },
     {
         img: pic1,
         alt: "WeWorkout App Pic",
         title: "WeWorkout App",
         summary: "We Workout is a fitness app for users new to training.",
-        link: "https://weworkoutapp.herokuapp.com/"
+        link: "https://weworkoutapp.herokuapp.com/",
+        gitlink: "https://github.com/achampigny4/we-workout"
     },
     {
         img: pic7,
         alt: "Google Books Search Pic",
         title: "Google Books Search",
         summary: "This App is used to search and save books from the entire Google Books library.",
-        link: "https://morning-inlet-35060.herokuapp.com/"
+        link: "https://morning-inlet-35060.herokuapp.com/",
+        gitlink: "https://github.com/SAR-SA/google-books-search"
     },
     {
         img: pic3,
         alt: "Weather App Pic",
         title: "Weather App",
         summary: "A Weather application that gives you the current weather for your selected area and the 5 day forecast.",
-        link: "https://github.com/SAR-SA/Homework-6-Weather-App"
+        link: "https://github.com/SAR-SA/Homework-6-Weather-App",
+        gitlink: "https://github.com/SAR-SA/Homework-6-Weather-App"
     },
     {
         img: pic4,
         alt: "Workday Scheduler Pic",
         title: "Workday Scheduler",
         summary: "This is a workday Scheduler Based on a 9-5 day. You can type and save any event or task.",
-        link: "https://github.com/SAR-SA/Homework-5-Work-Day-Scheduler"
+        link: "https://github.com/SAR-SA/Homework-5-Work-Day-Scheduler",
+        gitlink: "https://github.com/SAR-SA/Homework-5-Work-Day-Scheduler"
     },
     {
         img: pic5,
         alt: "Password Generator Pic",
         title: "Password Generator",
         summary: "Password Generator. Determine how long you want your passwrod and what characters you would like to use.",
-        link: "https://github.com/SAR-SA/Homework-3-Password-Generator"
+        link: "https://github.com/SAR-SA/Homework-3-Password-Generator",
+        gitlink: "https://github.com/SAR-SA/Homework-3-Password-Generator"
     },
     {
         img: pic2,
         alt: "EatDa Burger Pic",
         title: "Eat Da Gurger App",
         summary: "Eat-Da-Burger! is a resturant app that lets users input the names or burgers they'd like to eat.",
-        link: "https://github.com/SAR-SA/Eat-Da-Burger-App"
+        link: "https://github.com/SAR-SA/Eat-Da-Burger-App",
+        gitlink: "https://github.com/SAR-SA/Eat-Da-Burger-App"
     },
 ]
 
@@ -78,7 +85,8 @@ function ProjectCards() {
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">{listItem.title}<i class="material-icons right">close</i></span>
                                 <p>{listItem.summary}</p>
-                                <p><a href={listItem.link} target="_blank">Visit</a></p>
+                                <p><a href={listItem.link} target="_blank">View Deployed Application</a></p>
+                                <p><a href={listItem.gitlink} target="_blank">GitHub Repository</a></p>
                             </div>
                         </div>
 
